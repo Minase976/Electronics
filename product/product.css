@@ -1,0 +1,140 @@
+.container {
+  max-width: 960px;
+}
+
+
+.site-header {
+  background-color: rgb(18, 12, 4);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #ffffff;
+  transition: color .15s ease-in-out;
+  text-decoration: none;
+  
+}
+
+.sign{
+  text-decoration: none;
+  color: white;
+  background-color: rgb(1, 183, 255);
+  border:solid 2px rgb(1,183,255);
+  border-radius: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+.sign:hover{
+  background-color: white;
+  color: black;
+}
+.log{
+  color:white;
+  background-color: rgb(1,183,255);
+  border:solid 2px rgb(1,183,255);
+  border-radius: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transform: all 1s ;
+}
+
+
+
+.log:hover{
+  color: black;
+  transform: all 1s;
+}
+.log a{
+  text-decoration: none;
+  color: white;
+}
+.log a:hover{
+  
+  color: black;
+}
+.edit{
+  background-color: #16028a;
+  text-decoration: none;
+  color:white;
+  border: solid #16028a;
+  border-radius: 5px;
+}
+.edit:hover{
+  color: black;
+
+  /* transform: translateY(20px); */
+  
+
+
+}
+.site-header a:hover {
+  color: #c9059b;
+}
+
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #252b2b;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 140, 0, 0.1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #c6c2df;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  
+}
+
+.footer ul li h5{
+  font-weight: 700;
+  color: rgb(7, 112, 112);
+}
+.footer ul li{
+  list-style-type: none;
+}
+.footer ul li a{
+  text-decoration: none;
+  font-weight: 500;
+  color: #1958e0;
+}
+.footer ul li a:hover{
+color: rgb(17, 195, 201);
+}
+.footer ul li{
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  color: #1958e0;
+}
+
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}

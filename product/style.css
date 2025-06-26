@@ -1,0 +1,143 @@
+body{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-family:cursive;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    }
+    th, td {
+    padding: 8px;
+    text-align: left;
+    }
+     th {
+    background-color:rgb(221, 216, 216);
+    }
+    tr:nth-child(even) {
+    background-color: rgb(255, 255, 255); 
+    } 
+    form {
+    max-width: 400px; margin: 20px auto;
+    }
+    label {
+    display: block; margin-bottom: 5px; font-weight: bold;
+    }
+    input[type="text"],
+    input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    button[type="submit"] {
+    padding: 8px 16px;
+    background-color: rgb(155, 4, 155);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    button[type="submit"]:hover{
+    background-color: rgb(240, 6, 240);
+    }
+    .href{
+        display: inline-block;
+        padding: 8px 16px;
+        margin-left: 0px;
+        margin: 10px;
+        background-color: rgb(0,4,155);
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.5s;
+       }
+       .href:hover {
+        background-color:rgb(0, 6, 240);
+}
+.welcome {
+    text-align: center;
+
+}
+.welcome pre{
+font-family: 'Times New Roman', Times, serif;
+}
+
+.first-row{
+    margin-top: 10%;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  color: white;
+  animation: to-the-roof 1.5s;
+}
+
+
+.first-row h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 500;
+    font-size: 50px;
+}
+.first-row p {
+font-size: 20px;
+font-family:'Times New Roman', Times, serif;
+opacity: 0.8;
+
+}
+.department{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    animation: to-the-roof 0.3s;
+}
+.department .section{
+    width: 40%;
+   height:40vh;
+   margin: 50px; 
+   padding-left: 30px;  
+}
+.department h2{
+    color: orange;
+    text-align: center;
+}
+.department ul{
+    text-align: center;
+    list-style-type: none;
+    
+}
+.department ul li{
+    border: 2px solid orange;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    width: 50%;
+    
+}
+.department ul li:hover{
+    background-color: orange;
+    animation: increase-in-size 0.8s;
+}
+.department ul li a{
+   text-decoration: none;
+   color: var(--back-color);
+   font-size: large;
+}
+
+/* .edit{
+    color:black;
+    text-decoration: none;
+    background: blanchedalmond;
+    border-radius: 5px; */
+
+@keyframes to-the-roof{
+    from{transform: translatey(-100%);}
+}
+@keyframes increase-in-size{
+    100% {transform: scale(1.5,1.5);}
+}
+
+
